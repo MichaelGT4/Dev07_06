@@ -1,4 +1,4 @@
-namespace Tests;
+namespace Implementations;
 
 public interface ILnkList<T> : IEnumerable<T>
 {

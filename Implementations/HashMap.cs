@@ -1,6 +1,6 @@
 using System.Collections;
 
-namespace Tests;
+namespace Implementations;
 
 public class HashMap<TKey, TValue> : IEnumerable<(TKey Key, TValue Value)> where TKey : notnull
 {

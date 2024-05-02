@@ -1,6 +1,6 @@
 using System.Collections;
 
-namespace Tests;
+namespace Implementations;
 
 public class DoublyLnkList<T> : ILnkList<T>
 {

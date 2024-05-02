@@ -1,3 +1,5 @@
+using Implementations;
+
 namespace Tests;
 
 public class HashMapTests
