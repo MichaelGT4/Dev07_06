@@ -5,6 +5,7 @@ namespace Implementations;
 public class BSTree
 {
     private BSTreeNode? _root;
+    asd
 
     public BSTree() : this(null)
     {
