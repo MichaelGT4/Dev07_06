@@ -149,38 +149,38 @@ public class BSTreeNode
         return result.ToArray();
     }
 
-    public int Min()
-    {
-
-        if (Left == null)
-        {
-            throw new InvalidOperationException();
-        }
-        
-        var current = this;
-
-        while (current.Left != null)
-        {
-            current = current.Left;
-        }
-
-        return current.Value;
-    }
-    
-    public int Max()
-    {
-        if (Right == null)
-        {
-            throw new InvalidOperationException();
-        }
-
-        var current = this;
-
-        while (current.Right != null)
-        {
-            current = current.Right;
-        }
-
-        return current.Value;
-    }
+    // public int Min()
+    // {
+    //
+    //     if (Left == null)
+    //     {
+    //         throw new InvalidOperationException();
+    //     }
+    //     
+    //     var current = this;
+    //
+    //     while (current.Left != null)
+    //     {
+    //         current = current.Left;
+    //     }
+    //
+    //     return current.Value;
+    // }
+    //
+    // public int Max()
+    // {
+    //     if (Right == null)
+    //     {
+    //         throw new InvalidOperationException();
+    //     }
+    //
+    //     var current = this;
+    //
+    //     while (current.Right != null)
+    //     {
+    //         current = current.Right;
+    //     }
+    //
+    //     return current.Value;
+    // }
 }

@@ -3,7 +3,7 @@ namespace Implementations;
 public class Graph<T> where T : notnull
 {
     private readonly Dictionary<T, List<T>> _edges;
-
+    
     public Graph() => _edges = new Dictionary<T, List<T>>();
 
     public IEnumerable<IEnumerable<T>> Paths(T start, T end) => 
